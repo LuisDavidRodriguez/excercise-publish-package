@@ -12,8 +12,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-          path: ./sample-packages/npm
-      - run: npm ci
+      - run: npm --prefix ./sample-packages/npm ci
       - run: npm test
 
   publish-gitHubPackage:
