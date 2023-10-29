@@ -1,3 +1,10 @@
 {
-  "your": "json config here"
+  "name": "@Luisda",
+  "version": "1.0.0",
+  "description": "Server app that uses the ORGANIZATION_NAME/PACKAGE_NAME package",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+  }
 }
